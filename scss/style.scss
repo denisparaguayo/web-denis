@@ -30,7 +30,7 @@ $secundario: #7846bf;
 }
 
 html {
-	// overflow-x: hidden;
+	overflow-x: hidden;
 }
 body {
 	font-family: $font-primary;
@@ -1191,16 +1191,13 @@ textarea.form-control {
 //ABOUT
 .about-author{
 	@include border-radius(5px);
-	img{
-	}
+	
 	.desc{
 		h3{
 			font-size: 24px;
 		}
 	}
-	.bio{
-
-	}
+	
 }
 
 
